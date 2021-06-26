@@ -33,7 +33,6 @@ import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import kotlinx.coroutines.launch
 
 @Composable
 fun LoginScreen(viewModel: LoginScreenViewModel = viewModel()) {
@@ -42,7 +41,6 @@ fun LoginScreen(viewModel: LoginScreenViewModel = viewModel()) {
   var userPassword by remember { mutableStateOf("") }
 
   val snackbarHostState = remember { SnackbarHostState() }
-  val coroutineScope = rememberCoroutineScope()
   val state by viewModel.loadingState.collectAsState()
 
   // Equivalent of onActivityResult
@@ -57,7 +55,7 @@ fun LoginScreen(viewModel: LoginScreenViewModel = viewModel()) {
     }
   }
 
-  val token = stringResource(R.string.default_web_client_id)
+
 
   Scaffold(
     scaffoldState = rememberScaffoldState(snackbarHostState = snackbarHostState),
@@ -123,7 +121,7 @@ fun LoginScreen(viewModel: LoginScreenViewModel = viewModel()) {
           )
 
           Button(
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier.fillMaxWidth().height(50.dp),
             enabled = userEmail.isNotEmpty() && userPassword.isNotEmpty(),
             content = {
               Text(text = "Login")
@@ -143,9 +141,11 @@ fun LoginScreen(viewModel: LoginScreenViewModel = viewModel()) {
           Spacer(modifier = Modifier.height(18.dp))
 
           val context = LocalContext.current
+          val token = stringResource(R.string.default_web_client_id)
+
           OutlinedButton(
             border = ButtonDefaults.outlinedBorder.copy(width = 1.dp),
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier.fillMaxWidth().height(50.dp),
             onClick = {
               val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(token)
