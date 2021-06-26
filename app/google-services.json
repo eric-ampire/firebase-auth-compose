@@ -1,0 +1,171 @@
+{
+  "project_info": {
+    "project_number": "647473798016",
+    "firebase_url": "https://fir-backend-5d3dd.firebaseio.com",
+    "project_id": "fir-backend-5d3dd",
+    "storage_bucket": "fir-backend-5d3dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647473798016:android:cc2ed09723eb07c09cbf65",
+        "android_client_info": {
+          "package_name": "com.ericampire.android.demo.androiddemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647473798016-le3gv3nfubj89s59d7llmctsmla7nh6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5SnwpAJY6Ds8vExqKIgCHKfzZ9C0l6Kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647473798016-le3gv3nfubj89s59d7llmctsmla7nh6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "647473798016-qtk0bl36l8q3eoqfokgtfhe1jm4g21h7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ericampire.mobile.flutterDemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647473798016:android:40ee3ba726db551e9cbf65",
+        "android_client_info": {
+          "package_name": "com.ericampire.android.firebasepaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647473798016-d0u718q5rc7427i6svp7evm0srlimqqt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ericampire.android.firebasepaging",
+            "certificate_hash": "20b9c644cd6aa09c7e55a80fe26b3cbf2a7e06d2"
+          }
+        },
+        {
+          "client_id": "647473798016-le3gv3nfubj89s59d7llmctsmla7nh6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5SnwpAJY6Ds8vExqKIgCHKfzZ9C0l6Kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647473798016-le3gv3nfubj89s59d7llmctsmla7nh6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "647473798016-qtk0bl36l8q3eoqfokgtfhe1jm4g21h7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ericampire.mobile.flutterDemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647473798016:android:03e0d0a9a9ae66bf9cbf65",
+        "android_client_info": {
+          "package_name": "com.ericampire.mobile.firebaseauthcompose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647473798016-le3gv3nfubj89s59d7llmctsmla7nh6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5SnwpAJY6Ds8vExqKIgCHKfzZ9C0l6Kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647473798016-le3gv3nfubj89s59d7llmctsmla7nh6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "647473798016-qtk0bl36l8q3eoqfokgtfhe1jm4g21h7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ericampire.mobile.flutterDemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647473798016:android:e5f1ce7a1e6281909cbf65",
+        "android_client_info": {
+          "package_name": "com.ericampire.mobile.flutter_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647473798016-0snjf75j1gefeadfm6i0osl6lrgjccq8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ericampire.mobile.flutter_demo",
+            "certificate_hash": "20b9c644cd6aa09c7e55a80fe26b3cbf2a7e06d2"
+          }
+        },
+        {
+          "client_id": "647473798016-le3gv3nfubj89s59d7llmctsmla7nh6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5SnwpAJY6Ds8vExqKIgCHKfzZ9C0l6Kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647473798016-le3gv3nfubj89s59d7llmctsmla7nh6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "647473798016-qtk0bl36l8q3eoqfokgtfhe1jm4g21h7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ericampire.mobile.flutterDemo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
